@@ -1,0 +1,368 @@
+{
+  "employees": [
+    {
+      "name": "pete",
+      "skills": [
+        "window"
+      ],
+      "position": "Supervisor",
+      "contractId": 1,
+      "id": 1
+    },
+    {
+      "name": "massa",
+      "skills": [
+        "hot",
+        "cold",
+        "window"
+      ],
+      "position": "Supervisor",
+      "contractId": 1,
+      "id": 2
+    },
+    {
+      "name": "mikko",
+      "skills": [
+        "hot",
+        "window"
+      ],
+      "position": "Supervisor",
+      "contractId": 1,
+      "id": 3
+    },
+    {
+      "name": "jimi",
+      "skills": [
+        "hot",
+        "cold",
+        "window"
+      ],
+      "position": "Employee",
+      "contractId": 2,
+      "id": 4
+    },
+    {
+      "name": "niel",
+      "skills": [
+        "hot",
+        "cold",
+        "window"
+      ],
+      "position": "Employee",
+      "contractId": 2,
+      "id": 5
+    },
+    {
+      "name": "jed",
+      "skills": [
+        "hot",
+        "window"
+      ],
+      "position": "Employee",
+      "contractId": 1,
+      "id": 6
+    },
+    {
+      "name": "juhi",
+      "skills": [
+        "cold"
+      ],
+      "position": "Employee",
+      "contractId": 2,
+      "id": 7
+    }
+  ],
+  "shifts": [
+    {
+      "name": "morning",
+      "tasks": [
+        {
+          "name": "hot",
+          "skillRequirement": "hot",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            }
+          ]
+        },
+        {
+          "name": "cold",
+          "skillRequirement": "cold",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            }
+          ]
+        },
+        {
+          "name": "window",
+          "skillRequirement": "window",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "10:00",
+              "endTime": "16:00"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "evening",
+      "tasks": [
+        {
+          "name": "hot",
+          "skillRequirement": "hot",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            }
+          ]
+        },
+        {
+          "name": "cold",
+          "skillRequirement": "cold",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            }
+          ]
+        },
+        {
+          "name": "window",
+          "skillRequirement": "window",
+          "schedule": [
+            {
+              "day": "Monday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Tuesday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            },
+            {
+              "day": "Wednesday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Thursday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Friday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Saturday",
+              "startTime": "16:00",
+              "endTime": "22:00"
+            },
+            {
+              "day": "Sunday",
+              "startTime": "16:00",
+              "endTime": "21:00"
+            }
+          ]
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "requests": [],
+  "schedules": [],
+  "skills": [
+    {
+      "name": "hot",
+      "id": 1
+    },
+    {
+      "name": "cold",
+      "id": 2
+    },
+    {
+      "name": "window",
+      "id": 3
+    }
+  ],
+  "contracts": [
+    {
+      "name": "full time",
+      "minHours": "112",
+      "maxHours": "120",
+      "unitDays": "21",
+      "id": 1
+    },
+    {
+      "name": "part time",
+      "minHours": "90",
+      "maxHours": "120",
+      "unitDays": "21",
+      "id": 2
+    }
+  ],
+  "settings": []
+}
